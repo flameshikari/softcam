@@ -10,8 +10,8 @@ jobs:
   build:
     strategy:
       matrix:
-        configuration: [Release, Debug]
-        platform: [x64, Win32]
+        configuration: [Release]
+        platform: [x64]
 
     runs-on: windows-latest
 
